@@ -29,6 +29,18 @@
 		A1BD66A521071DD30050F633 /* 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = A1BD66A221071DD30050F633 /* 2.gif */; };
 		A1BD66AA21085BAD0050F633 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BD66A821085BAD0050F633 /* UIColor+Hex.m */; };
 		A1BD66AE21086D0A0050F633 /* baseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BD66AD21086D0A0050F633 /* baseViewController.m */; };
+		A1BD66E6210AF9640050F633 /* itemMessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BD66E4210AF9640050F633 /* itemMessageTableViewCell.m */; };
+		A1BD66E7210AF9640050F633 /* itemMessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1BD66E5210AF9640050F633 /* itemMessageTableViewCell.xib */; };
+		A1BD66EB210B01B50050F633 /* identificationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BD66E9210B01B50050F633 /* identificationTableViewCell.m */; };
+		A1BD66EC210B01B50050F633 /* identificationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1BD66EA210B01B50050F633 /* identificationTableViewCell.xib */; };
+		A1BD66F0210B06D20050F633 /* auctionRecordTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BD66EE210B06D20050F633 /* auctionRecordTableViewCell.m */; };
+		A1BD66F1210B06D20050F633 /* auctionRecordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1BD66EF210B06D20050F633 /* auctionRecordTableViewCell.xib */; };
+		A1BD66F5210B09410050F633 /* itemDescriptionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BD66F3210B09410050F633 /* itemDescriptionTableViewCell.m */; };
+		A1BD66F6210B09410050F633 /* itemDescriptionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1BD66F4210B09410050F633 /* itemDescriptionTableViewCell.xib */; };
+		A1BD66FA210B0B340050F633 /* shopTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BD66F8210B0B340050F633 /* shopTableViewCell.m */; };
+		A1BD66FB210B0B340050F633 /* shopTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1BD66F9210B0B340050F633 /* shopTableViewCell.xib */; };
+		A1BD66FF210B18A50050F633 /* itemOtherTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BD66FD210B18A50050F633 /* itemOtherTableViewCell.m */; };
+		A1BD6700210B18A50050F633 /* itemOtherTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1BD66FE210B18A50050F633 /* itemOtherTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +83,24 @@
 		A1BD66A921085BAD0050F633 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		A1BD66AC21086D0A0050F633 /* baseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = baseViewController.h; sourceTree = "<group>"; };
 		A1BD66AD21086D0A0050F633 /* baseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = baseViewController.m; sourceTree = "<group>"; };
+		A1BD66E3210AF9640050F633 /* itemMessageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = itemMessageTableViewCell.h; sourceTree = "<group>"; };
+		A1BD66E4210AF9640050F633 /* itemMessageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = itemMessageTableViewCell.m; sourceTree = "<group>"; };
+		A1BD66E5210AF9640050F633 /* itemMessageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = itemMessageTableViewCell.xib; sourceTree = "<group>"; };
+		A1BD66E8210B01B50050F633 /* identificationTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = identificationTableViewCell.h; sourceTree = "<group>"; };
+		A1BD66E9210B01B50050F633 /* identificationTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = identificationTableViewCell.m; sourceTree = "<group>"; };
+		A1BD66EA210B01B50050F633 /* identificationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = identificationTableViewCell.xib; sourceTree = "<group>"; };
+		A1BD66ED210B06D20050F633 /* auctionRecordTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = auctionRecordTableViewCell.h; sourceTree = "<group>"; };
+		A1BD66EE210B06D20050F633 /* auctionRecordTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = auctionRecordTableViewCell.m; sourceTree = "<group>"; };
+		A1BD66EF210B06D20050F633 /* auctionRecordTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = auctionRecordTableViewCell.xib; sourceTree = "<group>"; };
+		A1BD66F2210B09410050F633 /* itemDescriptionTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = itemDescriptionTableViewCell.h; sourceTree = "<group>"; };
+		A1BD66F3210B09410050F633 /* itemDescriptionTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = itemDescriptionTableViewCell.m; sourceTree = "<group>"; };
+		A1BD66F4210B09410050F633 /* itemDescriptionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = itemDescriptionTableViewCell.xib; sourceTree = "<group>"; };
+		A1BD66F7210B0B340050F633 /* shopTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shopTableViewCell.h; sourceTree = "<group>"; };
+		A1BD66F8210B0B340050F633 /* shopTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shopTableViewCell.m; sourceTree = "<group>"; };
+		A1BD66F9210B0B340050F633 /* shopTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = shopTableViewCell.xib; sourceTree = "<group>"; };
+		A1BD66FC210B18A50050F633 /* itemOtherTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = itemOtherTableViewCell.h; sourceTree = "<group>"; };
+		A1BD66FD210B18A50050F633 /* itemOtherTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = itemOtherTableViewCell.m; sourceTree = "<group>"; };
+		A1BD66FE210B18A50050F633 /* itemOtherTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = itemOtherTableViewCell.xib; sourceTree = "<group>"; };
 		DFCEDBB64542C392FD2ACD7B /* Pods-bufuAuction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bufuAuction.release.xcconfig"; path = "Pods/Target Support Files/Pods-bufuAuction/Pods-bufuAuction.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -245,6 +275,24 @@
 				A1A503A72101B94500FD5D41 /* itemTableViewCell.h */,
 				A1A503A82101B94500FD5D41 /* itemTableViewCell.m */,
 				A1A503A92101B94500FD5D41 /* itemTableViewCell.xib */,
+				A1BD66E3210AF9640050F633 /* itemMessageTableViewCell.h */,
+				A1BD66E4210AF9640050F633 /* itemMessageTableViewCell.m */,
+				A1BD66E5210AF9640050F633 /* itemMessageTableViewCell.xib */,
+				A1BD66E8210B01B50050F633 /* identificationTableViewCell.h */,
+				A1BD66E9210B01B50050F633 /* identificationTableViewCell.m */,
+				A1BD66EA210B01B50050F633 /* identificationTableViewCell.xib */,
+				A1BD66ED210B06D20050F633 /* auctionRecordTableViewCell.h */,
+				A1BD66EE210B06D20050F633 /* auctionRecordTableViewCell.m */,
+				A1BD66EF210B06D20050F633 /* auctionRecordTableViewCell.xib */,
+				A1BD66F2210B09410050F633 /* itemDescriptionTableViewCell.h */,
+				A1BD66F3210B09410050F633 /* itemDescriptionTableViewCell.m */,
+				A1BD66F4210B09410050F633 /* itemDescriptionTableViewCell.xib */,
+				A1BD66F7210B0B340050F633 /* shopTableViewCell.h */,
+				A1BD66F8210B0B340050F633 /* shopTableViewCell.m */,
+				A1BD66F9210B0B340050F633 /* shopTableViewCell.xib */,
+				A1BD66FC210B18A50050F633 /* itemOtherTableViewCell.h */,
+				A1BD66FD210B18A50050F633 /* itemOtherTableViewCell.m */,
+				A1BD66FE210B18A50050F633 /* itemOtherTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -344,11 +392,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1BD66A521071DD30050F633 /* 2.gif in Resources */,
+				A1BD6700210B18A50050F633 /* itemOtherTableViewCell.xib in Resources */,
 				A1A503B02101BA6E00FD5D41 /* detailViewController.xib in Resources */,
+				A1BD66F6210B09410050F633 /* itemDescriptionTableViewCell.xib in Resources */,
 				A1A503AB2101B94500FD5D41 /* itemTableViewCell.xib in Resources */,
 				A1A5038120FF14E600FD5D41 /* LaunchScreen.storyboard in Resources */,
+				A1BD66E7210AF9640050F633 /* itemMessageTableViewCell.xib in Resources */,
+				A1BD66F1210B06D20050F633 /* auctionRecordTableViewCell.xib in Resources */,
 				A1BD66A321071DD30050F633 /* 3.jpg in Resources */,
+				A1BD66FB210B0B340050F633 /* shopTableViewCell.xib in Resources */,
 				A1A5037E20FF14E600FD5D41 /* Assets.xcassets in Resources */,
+				A1BD66EC210B01B50050F633 /* identificationTableViewCell.xib in Resources */,
 				A1BD66A421071DD30050F633 /* 1.gif in Resources */,
 				A1A5037C20FF14E400FD5D41 /* Main.storyboard in Resources */,
 			);
@@ -406,15 +460,21 @@
 				A1BD66AA21085BAD0050F633 /* UIColor+Hex.m in Sources */,
 				A1A503A320FF23C400FD5D41 /* messageViewController.m in Sources */,
 				A1A503A020FF23BC00FD5D41 /* attentionViewController.m in Sources */,
+				A1BD66E6210AF9640050F633 /* itemMessageTableViewCell.m in Sources */,
+				A1BD66F5210B09410050F633 /* itemDescriptionTableViewCell.m in Sources */,
 				A1A503AF2101BA6E00FD5D41 /* detailViewController.m in Sources */,
+				A1BD66FF210B18A50050F633 /* itemOtherTableViewCell.m in Sources */,
 				A1BD66AE21086D0A0050F633 /* baseViewController.m in Sources */,
 				A1A5038420FF14E600FD5D41 /* main.m in Sources */,
 				A1A5039D20FF1E8C00FD5D41 /* mineViewController.m in Sources */,
 				A1A5039220FF194400FD5D41 /* BFTabBarController.m in Sources */,
 				A1A5039A20FF1E3400FD5D41 /* mianViewController.m in Sources */,
 				A1A5037620FF14E400FD5D41 /* AppDelegate.m in Sources */,
+				A1BD66F0210B06D20050F633 /* auctionRecordTableViewCell.m in Sources */,
 				A1A503AA2101B94500FD5D41 /* itemTableViewCell.m in Sources */,
+				A1BD66EB210B01B50050F633 /* identificationTableViewCell.m in Sources */,
 				A1A5038F20FF18F200FD5D41 /* BFNavigationController.m in Sources */,
+				A1BD66FA210B0B340050F633 /* shopTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
