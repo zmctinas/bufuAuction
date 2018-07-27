@@ -7,15 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62408655D6F66371C2FE78D7 /* libPods-bufuAuction.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 417609259CBD3111BC2FAC1F /* libPods-bufuAuction.a */; };
 		A1A5037620FF14E400FD5D41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A5037520FF14E400FD5D41 /* AppDelegate.m */; };
 		A1A5037920FF14E400FD5D41 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A5037820FF14E400FD5D41 /* ViewController.m */; };
 		A1A5037C20FF14E400FD5D41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1A5037A20FF14E400FD5D41 /* Main.storyboard */; };
 		A1A5037E20FF14E600FD5D41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1A5037D20FF14E600FD5D41 /* Assets.xcassets */; };
 		A1A5038120FF14E600FD5D41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1A5037F20FF14E600FD5D41 /* LaunchScreen.storyboard */; };
 		A1A5038420FF14E600FD5D41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A5038320FF14E600FD5D41 /* main.m */; };
+		A1A5038F20FF18F200FD5D41 /* BFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A5038D20FF18F200FD5D41 /* BFNavigationController.m */; };
+		A1A5039220FF194400FD5D41 /* BFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A5039120FF194400FD5D41 /* BFTabBarController.m */; };
+		A1A5039A20FF1E3400FD5D41 /* mianViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A5039920FF1E3400FD5D41 /* mianViewController.m */; };
+		A1A5039D20FF1E8C00FD5D41 /* mineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A5039C20FF1E8C00FD5D41 /* mineViewController.m */; };
+		A1A503A020FF23BC00FD5D41 /* attentionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A5039F20FF23BC00FD5D41 /* attentionViewController.m */; };
+		A1A503A320FF23C400FD5D41 /* messageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A503A220FF23C400FD5D41 /* messageViewController.m */; };
+		A1A503AA2101B94500FD5D41 /* itemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A503A82101B94500FD5D41 /* itemTableViewCell.m */; };
+		A1A503AB2101B94500FD5D41 /* itemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1A503A92101B94500FD5D41 /* itemTableViewCell.xib */; };
+		A1A503AF2101BA6E00FD5D41 /* detailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A503AD2101BA6E00FD5D41 /* detailViewController.m */; };
+		A1A503B02101BA6E00FD5D41 /* detailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1A503AE2101BA6E00FD5D41 /* detailViewController.xib */; };
+		A1BD66A321071DD30050F633 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1BD66A021071DD20050F633 /* 3.jpg */; };
+		A1BD66A421071DD30050F633 /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = A1BD66A121071DD20050F633 /* 1.gif */; };
+		A1BD66A521071DD30050F633 /* 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = A1BD66A221071DD30050F633 /* 2.gif */; };
+		A1BD66AA21085BAD0050F633 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BD66A821085BAD0050F633 /* UIColor+Hex.m */; };
+		A1BD66AE21086D0A0050F633 /* baseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BD66AD21086D0A0050F633 /* baseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C4221CFE73DAF5F2522E0FB /* Pods-bufuAuction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bufuAuction.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bufuAuction/Pods-bufuAuction.debug.xcconfig"; sourceTree = "<group>"; };
+		417609259CBD3111BC2FAC1F /* libPods-bufuAuction.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bufuAuction.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1A5037120FF14E400FD5D41 /* bufuAuction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bufuAuction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1A5037420FF14E400FD5D41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A1A5037520FF14E400FD5D41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +44,34 @@
 		A1A5038020FF14E600FD5D41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1A5038220FF14E600FD5D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1A5038320FF14E600FD5D41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1A5038D20FF18F200FD5D41 /* BFNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFNavigationController.m; sourceTree = "<group>"; };
+		A1A5038E20FF18F200FD5D41 /* BFNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFNavigationController.h; sourceTree = "<group>"; };
+		A1A5039020FF194400FD5D41 /* BFTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFTabBarController.h; sourceTree = "<group>"; };
+		A1A5039120FF194400FD5D41 /* BFTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFTabBarController.m; sourceTree = "<group>"; };
+		A1A5039820FF1E3400FD5D41 /* mianViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mianViewController.h; sourceTree = "<group>"; };
+		A1A5039920FF1E3400FD5D41 /* mianViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mianViewController.m; sourceTree = "<group>"; };
+		A1A5039B20FF1E8C00FD5D41 /* mineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mineViewController.h; sourceTree = "<group>"; };
+		A1A5039C20FF1E8C00FD5D41 /* mineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mineViewController.m; sourceTree = "<group>"; };
+		A1A5039E20FF23BC00FD5D41 /* attentionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = attentionViewController.h; sourceTree = "<group>"; };
+		A1A5039F20FF23BC00FD5D41 /* attentionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = attentionViewController.m; sourceTree = "<group>"; };
+		A1A503A120FF23C400FD5D41 /* messageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = messageViewController.h; sourceTree = "<group>"; };
+		A1A503A220FF23C400FD5D41 /* messageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = messageViewController.m; sourceTree = "<group>"; };
+		A1A503A72101B94500FD5D41 /* itemTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = itemTableViewCell.h; sourceTree = "<group>"; };
+		A1A503A82101B94500FD5D41 /* itemTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = itemTableViewCell.m; sourceTree = "<group>"; };
+		A1A503A92101B94500FD5D41 /* itemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = itemTableViewCell.xib; sourceTree = "<group>"; };
+		A1A503AC2101BA6E00FD5D41 /* detailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = detailViewController.h; sourceTree = "<group>"; };
+		A1A503AD2101BA6E00FD5D41 /* detailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = detailViewController.m; sourceTree = "<group>"; };
+		A1A503AE2101BA6E00FD5D41 /* detailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = detailViewController.xib; sourceTree = "<group>"; };
+		A1BD669E21071B1B0050F633 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A1BD669F21071B360050F633 /* appConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = appConfig.h; sourceTree = "<group>"; };
+		A1BD66A021071DD20050F633 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		A1BD66A121071DD20050F633 /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
+		A1BD66A221071DD30050F633 /* 2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2.gif; sourceTree = "<group>"; };
+		A1BD66A821085BAD0050F633 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		A1BD66A921085BAD0050F633 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		A1BD66AC21086D0A0050F633 /* baseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = baseViewController.h; sourceTree = "<group>"; };
+		A1BD66AD21086D0A0050F633 /* baseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = baseViewController.m; sourceTree = "<group>"; };
+		DFCEDBB64542C392FD2ACD7B /* Pods-bufuAuction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bufuAuction.release.xcconfig"; path = "Pods/Target Support Files/Pods-bufuAuction/Pods-bufuAuction.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +79,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62408655D6F66371C2FE78D7 /* libPods-bufuAuction.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24088E3057487506DF634998 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C4221CFE73DAF5F2522E0FB /* Pods-bufuAuction.debug.xcconfig */,
+				DFCEDBB64542C392FD2ACD7B /* Pods-bufuAuction.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		91016B17CAB26A32F20EBBCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				417609259CBD3111BC2FAC1F /* libPods-bufuAuction.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A1A5036820FF14E400FD5D41 = {
 			isa = PBXGroup;
 			children = (
+				A1BD66A121071DD20050F633 /* 1.gif */,
+				A1BD66A221071DD30050F633 /* 2.gif */,
+				A1BD66A021071DD20050F633 /* 3.jpg */,
 				A1A5037320FF14E400FD5D41 /* bufuAuction */,
 				A1A5037220FF14E400FD5D41 /* Products */,
+				24088E3057487506DF634998 /* Pods */,
+				91016B17CAB26A32F20EBBCB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +127,10 @@
 		A1A5037320FF14E400FD5D41 /* bufuAuction */ = {
 			isa = PBXGroup;
 			children = (
-				A1A5037420FF14E400FD5D41 /* AppDelegate.h */,
-				A1A5037520FF14E400FD5D41 /* AppDelegate.m */,
+				A1A5038B20FF158000FD5D41 /* BuFuAucitonDelegate */,
+				A1A5038A20FF156B00FD5D41 /* Common */,
+				A1A5039320FF1D1500FD5D41 /* Section */,
+				A1BD66A621085BAD0050F633 /* Library */,
 				A1A5037720FF14E400FD5D41 /* ViewController.h */,
 				A1A5037820FF14E400FD5D41 /* ViewController.m */,
 				A1A5037A20FF14E400FD5D41 /* Main.storyboard */,
@@ -71,6 +142,148 @@
 			path = bufuAuction;
 			sourceTree = "<group>";
 		};
+		A1A5038A20FF156B00FD5D41 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A1BD66AB21086CFA0050F633 /* baseViewController */,
+				A1BD669D21071AFC0050F633 /* CommonDefine */,
+				A1A5038C20FF187200FD5D41 /* BarController */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A1A5038B20FF158000FD5D41 /* BuFuAucitonDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A1A5037420FF14E400FD5D41 /* AppDelegate.h */,
+				A1A5037520FF14E400FD5D41 /* AppDelegate.m */,
+			);
+			path = BuFuAucitonDelegate;
+			sourceTree = "<group>";
+		};
+		A1A5038C20FF187200FD5D41 /* BarController */ = {
+			isa = PBXGroup;
+			children = (
+				A1A5038E20FF18F200FD5D41 /* BFNavigationController.h */,
+				A1A5038D20FF18F200FD5D41 /* BFNavigationController.m */,
+				A1A5039020FF194400FD5D41 /* BFTabBarController.h */,
+				A1A5039120FF194400FD5D41 /* BFTabBarController.m */,
+			);
+			path = BarController;
+			sourceTree = "<group>";
+		};
+		A1A5039320FF1D1500FD5D41 /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				A1A5039620FF1D6500FD5D41 /* main */,
+				A1A5039420FF1D6500FD5D41 /* attention */,
+				A1A5039520FF1D6500FD5D41 /* message */,
+				A1A5039720FF1D6500FD5D41 /* mine */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
+		A1A5039420FF1D6500FD5D41 /* attention */ = {
+			isa = PBXGroup;
+			children = (
+				A1A5039E20FF23BC00FD5D41 /* attentionViewController.h */,
+				A1A5039F20FF23BC00FD5D41 /* attentionViewController.m */,
+			);
+			path = attention;
+			sourceTree = "<group>";
+		};
+		A1A5039520FF1D6500FD5D41 /* message */ = {
+			isa = PBXGroup;
+			children = (
+				A1A503A120FF23C400FD5D41 /* messageViewController.h */,
+				A1A503A220FF23C400FD5D41 /* messageViewController.m */,
+			);
+			path = message;
+			sourceTree = "<group>";
+		};
+		A1A5039620FF1D6500FD5D41 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				A1A503A520FF465700FD5D41 /* Controller */,
+				A1A503A420FF465700FD5D41 /* Model */,
+				A1A503A620FF465800FD5D41 /* View */,
+				A1A5039820FF1E3400FD5D41 /* mianViewController.h */,
+				A1A5039920FF1E3400FD5D41 /* mianViewController.m */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		A1A5039720FF1D6500FD5D41 /* mine */ = {
+			isa = PBXGroup;
+			children = (
+				A1A5039B20FF1E8C00FD5D41 /* mineViewController.h */,
+				A1A5039C20FF1E8C00FD5D41 /* mineViewController.m */,
+			);
+			path = mine;
+			sourceTree = "<group>";
+		};
+		A1A503A420FF465700FD5D41 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A1A503A520FF465700FD5D41 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A1A503AC2101BA6E00FD5D41 /* detailViewController.h */,
+				A1A503AD2101BA6E00FD5D41 /* detailViewController.m */,
+				A1A503AE2101BA6E00FD5D41 /* detailViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A1A503A620FF465800FD5D41 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A1A503A72101B94500FD5D41 /* itemTableViewCell.h */,
+				A1A503A82101B94500FD5D41 /* itemTableViewCell.m */,
+				A1A503A92101B94500FD5D41 /* itemTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A1BD669D21071AFC0050F633 /* CommonDefine */ = {
+			isa = PBXGroup;
+			children = (
+				A1BD669E21071B1B0050F633 /* PrefixHeader.pch */,
+				A1BD669F21071B360050F633 /* appConfig.h */,
+			);
+			path = CommonDefine;
+			sourceTree = "<group>";
+		};
+		A1BD66A621085BAD0050F633 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				A1BD66A721085BAD0050F633 /* UIColor+Hex */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		A1BD66A721085BAD0050F633 /* UIColor+Hex */ = {
+			isa = PBXGroup;
+			children = (
+				A1BD66A821085BAD0050F633 /* UIColor+Hex.m */,
+				A1BD66A921085BAD0050F633 /* UIColor+Hex.h */,
+			);
+			path = "UIColor+Hex";
+			sourceTree = "<group>";
+		};
+		A1BD66AB21086CFA0050F633 /* baseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A1BD66AC21086D0A0050F633 /* baseViewController.h */,
+				A1BD66AD21086D0A0050F633 /* baseViewController.m */,
+			);
+			path = baseViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +291,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1A5038720FF14E600FD5D41 /* Build configuration list for PBXNativeTarget "bufuAuction" */;
 			buildPhases = (
+				05E77012EA22E58E8BD12182 /* [CP] Check Pods Manifest.lock */,
 				A1A5036D20FF14E400FD5D41 /* Sources */,
 				A1A5036E20FF14E400FD5D41 /* Frameworks */,
 				A1A5036F20FF14E400FD5D41 /* Resources */,
+				B283D89186148FADA87C99DB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,13 +343,59 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1BD66A521071DD30050F633 /* 2.gif in Resources */,
+				A1A503B02101BA6E00FD5D41 /* detailViewController.xib in Resources */,
+				A1A503AB2101B94500FD5D41 /* itemTableViewCell.xib in Resources */,
 				A1A5038120FF14E600FD5D41 /* LaunchScreen.storyboard in Resources */,
+				A1BD66A321071DD30050F633 /* 3.jpg in Resources */,
 				A1A5037E20FF14E600FD5D41 /* Assets.xcassets in Resources */,
+				A1BD66A421071DD30050F633 /* 1.gif in Resources */,
 				A1A5037C20FF14E400FD5D41 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05E77012EA22E58E8BD12182 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bufuAuction-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B283D89186148FADA87C99DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-bufuAuction/Pods-bufuAuction-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bufuAuction/Pods-bufuAuction-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A1A5036D20FF14E400FD5D41 /* Sources */ = {
@@ -142,8 +403,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1A5037920FF14E400FD5D41 /* ViewController.m in Sources */,
+				A1BD66AA21085BAD0050F633 /* UIColor+Hex.m in Sources */,
+				A1A503A320FF23C400FD5D41 /* messageViewController.m in Sources */,
+				A1A503A020FF23BC00FD5D41 /* attentionViewController.m in Sources */,
+				A1A503AF2101BA6E00FD5D41 /* detailViewController.m in Sources */,
+				A1BD66AE21086D0A0050F633 /* baseViewController.m in Sources */,
 				A1A5038420FF14E600FD5D41 /* main.m in Sources */,
+				A1A5039D20FF1E8C00FD5D41 /* mineViewController.m in Sources */,
+				A1A5039220FF194400FD5D41 /* BFTabBarController.m in Sources */,
+				A1A5039A20FF1E3400FD5D41 /* mianViewController.m in Sources */,
 				A1A5037620FF14E400FD5D41 /* AppDelegate.m in Sources */,
+				A1A503AA2101B94500FD5D41 /* itemTableViewCell.m in Sources */,
+				A1A5038F20FF18F200FD5D41 /* BFNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,10 +552,12 @@
 		};
 		A1A5038820FF14E600FD5D41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C4221CFE73DAF5F2522E0FB /* Pods-bufuAuction.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GLA7XCD53G;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/bufuAuction/Common/CommonDefine/PrefixHeader.pch";
 				INFOPLIST_FILE = bufuAuction/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -292,16 +565,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = weiixao.bufuAuction;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		A1A5038920FF14E600FD5D41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFCEDBB64542C392FD2ACD7B /* Pods-bufuAuction.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GLA7XCD53G;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/bufuAuction/Common/CommonDefine/PrefixHeader.pch";
 				INFOPLIST_FILE = bufuAuction/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,7 +584,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = weiixao.bufuAuction;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
